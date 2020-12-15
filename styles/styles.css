@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 24px;
+	font-family: cursive;
+}
+
+header,
+footer {
+	background-color: #fcd34d;
+	text-align: center;
+	font-weight: bolder;
+	width: 100%;
+}
+
+header h2 {
+	width: 80%;
+	max-width: 24em;
+	margin: 0 auto;
+	padding: 0.25em 0.625em;
+}
+
+footer {
+	position: fixed;
+	padding: 1rem;
+	bottom: 0;
+}
+
+main {
+	text-align: center;
+}
+
+main > * {
+	margin: 1rem;
+}
+
+textarea {
+	display: block;
+	min-height: 15vh;
+	margin: 0 auto;
+	font-size: 1em;
+	margin-bottom: 3rem;
+}
+
+#minion-image {
+	text-align: center;
+	margin: 1em;
+}
+
+input[type='button'] {
+	text-align: left;
+	font-size: 0.8em;
+	background-color: #fcd34d;
+	border: 2px solid #000000;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+
+input[type='button']:hover {
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+p {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 360px) {
+	textarea {
+		display: block;
+		min-height: 15vh;
+		margin: 0 auto;
+		font-size: 1em;
+		width: 50%;
+		margin-bottom: 3rem;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	textarea {
+		display: block;
+		min-height: 15vh;
+		margin: 0 auto;
+		font-size: 1em;
+		width: 50%;
+		margin-bottom: 3rem;
+	}
+}
