@@ -39,6 +39,11 @@ main > * {
 }
 
 textarea {
+	border: 4px dashed;
+	border-top-color: #000000;
+	border-left-color: #000000;
+	border-bottom-color: #fcd34d;
+	border-right-color: #fcd34d;
 	display: block;
 	min-height: 15vh;
 	margin: 0 auto;
@@ -74,11 +79,16 @@ input[type='button']:hover {
 }
 
 p {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 @media only screen and (max-width: 360px) {
 	textarea {
+		border: 4px dashed;
+		border-top-color: #000000;
+		border-left-color: #000000;
+		border-bottom-color: #fcd34d;
+		border-right-color: #fcd34d;
 		display: block;
 		min-height: 15vh;
 		margin: 0 auto;
@@ -90,6 +100,11 @@ p {
 
 @media only screen and (max-width: 560px) {
 	textarea {
+		border: 4px dashed;
+		border-top-color: #000000;
+		border-left-color: #000000;
+		border-bottom-color: #fcd34d;
+		border-right-color: #fcd34d;
 		display: block;
 		min-height: 15vh;
 		margin: 0 auto;

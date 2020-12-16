@@ -11,14 +11,12 @@ function translate() {
 		const encodedText = encodeURI(input.value);
 		const fullUrl = `${apiUrl}?text=${encodedText}`;
 		fetch(fullUrl)
-			.then((res) => {
-				if (res.status === 429)
-					alert(
-						'Too Many Requests: Rate limit of 5 requests per hour exceeded.'
-					);
-				else res.json();
+			.then((res) => res.json())
+			.then((data) => {
+				if (data.error === undefined)
+					return (output.innerText = data.contents.translated);
+				return alert(data.error.message);
 			})
-			.then((data) => (output.innerText = data.contents.translated))
-			.catch((err) => alert('Error ocurred please try again later'));
+			.catch((err) => alert('Error ocurred please try again later', err));
 	}
 }
