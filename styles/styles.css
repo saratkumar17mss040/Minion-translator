@@ -45,7 +45,7 @@ textarea {
 	border-bottom-color: #fcd34d;
 	border-right-color: #fcd34d;
 	display: block;
-	min-height: 15vh;
+	min-height: 10vh;
 	margin: 0 auto;
 	font-size: 1em;
 	margin-bottom: 3rem;
@@ -90,7 +90,7 @@ p {
 		border-bottom-color: #fcd34d;
 		border-right-color: #fcd34d;
 		display: block;
-		min-height: 15vh;
+		min-height: 10vh;
 		margin: 0 auto;
 		font-size: 1em;
 		width: 50%;
@@ -106,7 +106,7 @@ p {
 		border-bottom-color: #fcd34d;
 		border-right-color: #fcd34d;
 		display: block;
-		min-height: 15vh;
+		min-height: 10vh;
 		margin: 0 auto;
 		font-size: 1em;
 		width: 50%;
